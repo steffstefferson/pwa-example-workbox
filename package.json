@@ -1,0 +1,21 @@
+{
+  "name": "pwa-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server -c lite-server-config.json",
+    "buildsw": "node buildServiceWorker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "workbox-build": "^3.1.0"
+  },
+  "dependencies": {
+    "workbox": "0.0.0"
+  }
+}
